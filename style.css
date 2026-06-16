@@ -15,7 +15,7 @@ body {
   color: #9E8C6C;
 }
 
-
+/* FECHAS AL LADO DEL SUBTÍTULO */
 .job-header {
   display: flex;
   justify-content: space-between;
@@ -70,13 +70,15 @@ body {
 }
 
 .skills,
-.awards {
+.awards,
+.works {
   list-style: none;
   padding: 0;
 }
 
 .skills li,
-.awards li {
+.awards li,
+.works li {
   margin-bottom: 8px;
 }
 
